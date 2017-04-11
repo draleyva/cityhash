@@ -83,7 +83,7 @@
     <IncludePath>.;.\src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\products\extern\src\cityhash-1.1.1;C:\products\extern\src\cityhash-1.1.1\src;$(IncludePath)</IncludePath>
+    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
     <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</OutDir>
     <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</IntDir>
   </PropertyGroup>
@@ -96,7 +96,7 @@
     <IncludePath>.;.\src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\products\extern\src\cityhash-1.1.1;C:\products\extern\src\cityhash-1.1.1\src;$(IncludePath)</IncludePath>
+    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
     <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</OutDir>
     <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</IntDir>
   </PropertyGroup>
