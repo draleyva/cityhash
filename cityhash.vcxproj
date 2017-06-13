@@ -132,7 +132,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>../../lib$(PlatformArchitecture)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -175,7 +175,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <OutputFile>../../lib$(PlatformArchitecture)/$(ProjectName)$(TargetExt)</OutputFile>
+      <OutputFile>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
