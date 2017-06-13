@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\city.cc">
+    <ClCompile Include="src/city.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\city.h">
+    <ClInclude Include="src/city.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\citycrc.h">
+    <ClInclude Include="src/citycrc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="config.h">

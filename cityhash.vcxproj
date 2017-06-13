@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\city.cc" />
+    <ClCompile Include="src/city.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
-    <ClInclude Include="src\city.h" />
-    <ClInclude Include="src\citycrc.h" />
+    <ClInclude Include="src/city.h" />
+    <ClInclude Include="src/citycrc.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C28C78E5-172F-4123-99AE-2C85F37DEB19}</ProjectGuid>
@@ -75,30 +75,30 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
-    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <IncludePath>.;./src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
-    <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <IncludePath>.;./src;$(IncludePath)</IncludePath>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
-    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
+    <IncludePath>.;./src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>.;.\src;$(IncludePath)</IncludePath>
-    <OutDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
-    <IntDir>$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
+    <IncludePath>.;./src;$(IncludePath)</IncludePath>
+    <OutDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</OutDir>
+    <IntDir>$(OUTPUTDIR)/$(ProjectName)/$(PlatformArchitecture)/$(Configuration)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
